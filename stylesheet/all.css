@@ -1,0 +1,39 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.4s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: mechrom;
+}
+@font-face {
+  font-family: mechrom;
+  src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+li {
+  list-style-type: none;
+}
+
+.bigbody {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=all.css.map */
